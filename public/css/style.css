@@ -3,16 +3,155 @@ body {
 }
 
 /* Exo margin */
+/* 1 */
+section {
+  background-color: #4da6ff;
+}
+h2 {
+  background-color: yellow;
+}
+
+/* 2 */
+h2 {
+  border: 2px solid;
+}
+
+/* 3 */
+h2 {
+size: 300px;
+}
+
+/* 4 */
+.margin1 {
+  margin: 50px;
+}
+
+/* 5 */
+.margin2 {
+  margin-left: 20%;
+}
+
+/* 6 */
+.margin3 {
+  margin: auto;
+}
 /* fin exo margin */
 
 /* exo padding */
+/* 1 */
+.padding1 {
+  padding: 50px;
+}
+
+/* 2 */
+.padding2 {
+  padding-left: 20%;
+}
 /* fin exo padding */
 
 /* exo display */
+/* 1 */
+.display1 {
+  margin: 15px;
+  padding: 15px;
+}
+.display2 {
+  margin: 15px;
+  padding: 15px;
+}
+
+/* 2 */
+.display1 {
+  display: inline-block;
+}
+.display2 {
+  display: inline-block;
+}
+
+/* 3 */
+.display1 {
+  display: inline;
+}
+.display2 {
+  display: inline;
+}
+
+/* 4 */
+.display2 {
+  display: none;
+}
 /* fin exo display */
 
+/* exo float */
+/* 1 */
+.float1 {
+  width: auto;
+}
+
+.float2 {
+  width: auto;
+}
+
+/* 2 */
+.float1 {
+  float:right ;
+}
+
+.float2 {
+  float:left;
+}
+
+/* 3 */
+.float3 {
+  overflow: auto;
+}
+/* fin exo float */
+
 /* exo position */
+/* 1 */
+.position1 {
+  position: absolute;
+}
+/* 2 */
+.position1 {
+  background-color: green;
+  margin: 0;
+  top: 0;
+}
+/* 3 */
+.position2 {
+  position: relative;
+}
+/* 4 */
+.position1 {
+  top: 50px;
+  left: 50%;
+}
+/* 5 */
+.position1 {
+  position: fixed;
+}
 /* fin exo position */
 
 /* exo position (priorité) */
+/* 1 */
+.prior1 {
+  background-color: blue;
+  margin-left: 100px;
+}
+/* 2 */
+.prior1 {
+  position: absolute;
+}
+.prior2 {
+  position: absolute;
+}
+/* 3 */
+.prior1 {
+  z-index: 100;
+}
+/* 4 */
+.prior1 {
+  z-index: -1;
+}
 /* fin exo position (priorité) */
