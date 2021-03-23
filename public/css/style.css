@@ -18,7 +18,7 @@ h2 {
 
 /* 3 */
 h2 {
-size: 300px;
+  font-size: 30px;
 }
 
 /* 4 */
@@ -135,7 +135,7 @@ size: 300px;
 
 /* exo position (priorité) */
 /* 1 */
-.prior1 {
+.prior2 {
   background-color: blue;
   margin-left: 100px;
 }
